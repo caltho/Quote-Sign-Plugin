@@ -222,9 +222,10 @@ foreach ( $wpdb->get_col( "DESC " . $table_name, 0 ) as $column_name ) {
     */
 
     /* DELETES ALL ENTRIES */
+    /*
     $table  = $wpdb->prefix . 'quotes';
     $delete = $wpdb->query("TRUNCATE TABLE $table");
-
+    */
 
     /*  This function creates a new database table suitable for uploading quotes! - tehe
         global $wpdb;
